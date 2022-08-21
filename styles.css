@@ -1,0 +1,141 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+
+}
+
+main {
+    display: flex;
+    /* min-height: 100vh; */
+    /* justify-content: space-between; */
+    background-color: white;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: 400px;
+    border-radius: 16px;
+    /* border: 1px solid rgb(239, 223, 223); */
+    box-shadow: 0px 10px 10px -6px rgb(192, 184, 184);
+    text-align: center;
+
+
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+
+main .title {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: larger;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
+}
+
+main .description {
+    display: flex;
+    font-size: 14px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    color: grey;
+    justify-content: center;
+
+}
+
+main .paymentplan {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: rgba(171, 168, 168, 0.1);
+    border-radius: 16px;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+}
+
+main .textplan {
+    text-align: start;
+    font-weight: 900;
+    padding-right: 3rem;
+
+}
+
+main .linkchange {
+    font-weight: 900;
+
+    font-size: 14px;
+}
+
+main .plancost {
+    text-align: start;
+}
+
+main .paymentbutton {
+    border-radius: 12px;
+    background-color: rgb(28, 28, 246);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: 700;
+    border-style: none;
+    box-shadow: 0px 15px 5px rgb(80, 78, 78, 0.1)
+}
+
+main .paymentbutton:hover {
+    border-radius: 12px;
+    background-color: rgb(111, 83, 163);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: 700;
+    border-style: none;
+    cursor: pointer;
+}
+
+main .calcelbutton {
+    font-weight: 900;
+    border-style: none;
+    background-color: white;
+    color: grey;
+    margin-bottom: 3rem;
+    padding-top: .5rem;
+
+}
+
+main .calcelbutton:hover {
+    font-weight: 900;
+    border-style: none;
+    background-color: white;
+    color: black;
+    margin-bottom: 3rem;
+    padding-top: .5rem;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        height: auto;
+        width: auto;
+    }
+}
